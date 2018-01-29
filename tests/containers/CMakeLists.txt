@@ -16,6 +16,7 @@ add_subdirectory(ppq)
 
 stxxl_build_test(test_dependency) # no need to execute it
 
+stxxl_build_test(test_buffer)
 stxxl_build_test(test_deque)
 stxxl_build_test(test_ext_merger)
 stxxl_build_test(test_ext_merger2)
@@ -35,6 +36,7 @@ stxxl_build_test(test_vector_export)
 stxxl_build_test(test_vector_resize)
 stxxl_build_test(test_vector_sizes)
 
+stxxl_test(test_buffer)
 stxxl_test(test_deque 3333)
 stxxl_test(test_ext_merger)
 stxxl_test(test_ext_merger2)
